@@ -1,0 +1,41 @@
+.containerZoom{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-image: url("../../assets/images/backzoom.png");
+}
+.textoEImagem{
+color: rgb(35, 156, 116);
+display: flex;
+justify-content: space-around;
+
+}
+
+.ajusteTextos{
+
+    width: 50vw;
+    height: 50vh;
+    margin-top: 4%;
+    text-shadow: 1px 2px 3px black;
+    background-color: white;
+     font-size: 20px;
+    text-align: justify;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px black;
+    opacity: 90%;
+}
+.imagemZoom{
+      margin-top: 20%;
+    box-shadow: 1px 3px 5px black;
+   
+}
+.imagemZoom:hover{
+    filter: blur(2px);
+    transition: 0.8s;
+}
+
+.efeitoBlur{
+    padding-top: -4%;
+    filter: blur(2px);
+}

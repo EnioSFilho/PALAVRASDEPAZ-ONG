@@ -1,0 +1,27 @@
+.headerSobreNos{
+    padding: 3%;
+    background: #000000;  
+background: -webkit-linear-gradient(to top, #434343, #000000);  
+background: linear-gradient(to top, #f7f6f6, #000000); 
+
+}
+
+.containerSobreNos{
+   width: 100vw;
+   height: 100vh;
+   max-width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.textoSobreNos{
+    width: 50vw;
+    height: 50vh;
+    text-shadow: 1px 1px 2px black;
+    color: rgb(35, 156, 116);
+    border:  1px solid rgb(35, 156, 116);
+    padding: 3.3%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px black;
+}
