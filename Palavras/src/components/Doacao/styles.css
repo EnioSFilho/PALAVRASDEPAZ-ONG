@@ -3,8 +3,9 @@
     height: 100vh;
     max-width: 100%;
     display: flex;
+    flex-wrap: wrap;
    justify-content: space-around;
-    background-color: rgb(35, 156, 116);;
+    background-color: #f7f6f6;
 }
 .cardOneDoacao{
     text-align: justify;
@@ -13,4 +14,13 @@
 .cardDoisVoluntario{
     text-align: justify;
     padding-top: 3%;
+}
+
+.headerSombraDoacao {
+    padding: 3%;
+    background: #000000;
+    background: -webkit-linear-gradient(to top, #434343, #000000);
+    background: linear-gradient(to top, #f7f6f6, #000000);
+    background-color: #f7f6f6;
+
 }

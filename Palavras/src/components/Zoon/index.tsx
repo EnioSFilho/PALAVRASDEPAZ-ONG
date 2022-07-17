@@ -6,8 +6,10 @@ import Blur from "../../assets/images/testeblur.png"
 function Zoom() {
     return (
         <Fragment>
+
+                <div className='headerZoom'></div>
             <div className='containerZoom'>
-                
+
 
                 <div className='textoEImagem'>
                     <div className='ajusteTextos'>

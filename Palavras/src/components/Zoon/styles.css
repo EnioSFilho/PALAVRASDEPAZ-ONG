@@ -1,12 +1,21 @@
+.headerZoom {
+    padding: 3%;
+    background: #000000;
+    background: -webkit-linear-gradient(to top,  #000000, #434343);
+    background: linear-gradient(to top,  #00A97E, #f7f6f6);
+    background-color: #f7f6f6;
+
+}
 .containerZoom{
     width: 100vw;
     height: 100vh;
     max-width: 100%;
-    background-image: url("../../assets/images/backzoom.png");
+    background-color: #00A97E
+  
     
 }
 .textoEImagem{
-color: rgb(35, 156, 116);
+color: #00A97E;
 display: flex;
 justify-content: space-around;
 

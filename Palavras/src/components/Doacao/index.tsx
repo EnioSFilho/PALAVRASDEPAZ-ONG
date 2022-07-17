@@ -8,6 +8,7 @@ function Doacao() {
     return (
         <Fragment>
 
+                <div className='headerSombraDoacao'></div>
             <div className='containerDoacao'>
 
                 <div className='cardOneDoacao'>
