@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Doacao from '../../components/Doacao'
 import Header from '../../components/Header'
 import Paginaprograma from '../../components/Paginaprograma'
 import Sobrenos from '../../components/Sobrenos'
@@ -11,6 +12,7 @@ function Home() {
         <Paginaprograma/>
         <Sobrenos/>
         <Zoom/>
+        <Doacao/>
     </Fragment>
   )
 }

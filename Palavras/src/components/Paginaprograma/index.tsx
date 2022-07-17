@@ -23,9 +23,7 @@ function Paginaprograma(): JSX.Element {
                     <iframe style={{ width: "40vw", height: "60vh" ,borderRadius: "10%" }}
                         src="https://www.youtube.com/embed/X3cphCj9YVc?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.palavrasdepaz.org&playsinline=1&enablejsapi=1&widgetid=1"
                         ></iframe>
-                        
-                    </div>
-
+                         </div>
                 </div>
             </main>
 

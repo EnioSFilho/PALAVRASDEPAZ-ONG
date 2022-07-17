@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import {  BrowserRouter as Router,  Routes,  Route, useLocation} from "react-router-dom";
+import Doacao from './components/Doacao';
 import Header from './components/Header';
 import Paginaprograma from './components/Paginaprograma';
 import Sobrenos from './components/Sobrenos';
@@ -30,6 +31,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/" element={<Home/>} />
         <Route path="/sobrenos" element={<Sobrenos/>} />
         <Route path="/zoom" element={<Zoom/>} />
+        <Route path="/doacao" element={<Doacao/>} />
        
     
        

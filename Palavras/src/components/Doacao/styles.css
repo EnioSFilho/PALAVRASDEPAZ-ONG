@@ -1,0 +1,16 @@
+.containerDoacao{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+   justify-content: space-around;
+    background-color: rgb(35, 156, 116);;
+}
+.cardOneDoacao{
+    text-align: justify;
+    padding-top: 3%;
+}
+.cardDoisVoluntario{
+    text-align: justify;
+    padding-top: 3%;
+}

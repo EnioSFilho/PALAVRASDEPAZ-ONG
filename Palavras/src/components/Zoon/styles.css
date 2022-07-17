@@ -3,6 +3,7 @@
     height: 100vh;
     max-width: 100%;
     background-image: url("../../assets/images/backzoom.png");
+    
 }
 .textoEImagem{
 color: rgb(35, 156, 116);
@@ -15,7 +16,7 @@ justify-content: space-around;
 
     width: 50vw;
     height: 50vh;
-    margin-top: 4%;
+    margin-top: 10%;
     text-shadow: 1px 2px 3px black;
     background-color: white;
      font-size: 20px;
@@ -26,16 +27,11 @@ justify-content: space-around;
     opacity: 90%;
 }
 .imagemZoom{
-      margin-top: 20%;
+      margin-top: 14%;
     box-shadow: 1px 3px 5px black;
    
 }
 .imagemZoom:hover{
     filter: blur(2px);
     transition: 0.8s;
-}
-
-.efeitoBlur{
-    padding-top: -4%;
-    filter: blur(2px);
 }

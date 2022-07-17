@@ -1,18 +1,17 @@
+
 .corpoPaginaPrograma{
    width: 100vw;
    height: 100vh;
-    /* background-color: rgb(134, 206, 182); */
     background-image: url("../../assets/images/back.jpg");
-    
-   
     background-repeat: no-repeat;
+   
 }
 .backGround{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 5%;
+    padding-top: 5rem;
 }
 .textoPrograma{
     color: white;
@@ -20,4 +19,11 @@
     text-align: justify;
     text-shadow: 1px 2px 3px black;
        
+}
+@media screen and (max-width: 557px){
+
+    .textoPrograma{
+        font-size: 15px;
+    }
+    
 }

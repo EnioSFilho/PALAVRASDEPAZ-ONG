@@ -7,9 +7,7 @@ function Zoom() {
     return (
         <Fragment>
             <div className='containerZoom'>
-                <div className='efeitoBlur'>
-                    <img src={Blur} alt="" />
-                </div>
+                
 
                 <div className='textoEImagem'>
                     <div className='ajusteTextos'>
