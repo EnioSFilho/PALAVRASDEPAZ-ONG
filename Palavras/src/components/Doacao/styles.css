@@ -10,10 +10,18 @@
 .cardOneDoacao{
     text-align: justify;
     padding-top: 3%;
+    color: #00A97E;;
 }
-.cardDoisVoluntario{
+.cardDoisInscrever{
     text-align: justify;
     padding-top: 3%;
+    color: #00A97E;;
+}
+
+.cardTresVoluntario{
+    text-align: justify;
+    padding-top: 3%;
+    color: #00A97E;;
 }
 
 .headerSombraDoacao {
