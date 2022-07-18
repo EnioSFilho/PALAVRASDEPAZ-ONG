@@ -1,0 +1,36 @@
+
+.headerSombraFooter {
+    padding: 3%;
+    background: #000000;
+    background: -webkit-linear-gradient(to top, #434343, #000000);
+    background: linear-gradient(to top, #f7f6f6, #000000);
+    background-color: #f7f6f6;
+
+}
+.containerFooter{
+    width: 100vw;
+    height: 15vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f7f6f6;
+
+}
+.textoFooter a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #00A97E;
+}
+.iconesFooter a{
+    font-size: 30px;
+    color: #00A97E;
+    padding-left: 10px;
+}
+.enioFooter a{
+    text-decoration: none;
+    color: #00A97E;
+    font-size: 20px;
+
+}
