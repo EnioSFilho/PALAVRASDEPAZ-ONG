@@ -41,7 +41,7 @@ function Doacao() {
                 </div >
                 <div className='cardTresVoluntario'>
                     <Card style={{ width: '18rem', height: "31rem" }}>
-                        <Card.Img variant="top" src={Voluntarios} />
+                        <Card.Img  src={Voluntarios} />
                         <Card.Body>
                             <Card.Title>Seja um Voluntário!</Card.Title>
                             <Card.Text>
