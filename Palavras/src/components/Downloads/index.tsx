@@ -29,25 +29,25 @@ function Downloads() {
 
                 <div className='cardOneDoacao'>
                     <Card style={{ width: '18rem', height: "31rem" }}>
-                        <Card.Img variant="top" src={Espelho} style={{maxWidth: "90%"}}/>
+                        <Card.Img variant="top" src={Espelho} style={{ maxWidth: "90%" }} />
                         <Card.Body>
                             <Card.Title>O Espelho na Parede</Card.Title>
                             <Card.Text>
                                 <p>Era uma vez uma aldeia distante onde viviam pessoas muito simples. Um dia, chegou um turista. Na manhã seguinte, ele pegou seu espelho e colocou-o na parede para se barbear. </p>
                             </Card.Text>
-                            <Button variant="success">Download</Button>
+                            <Button variant="success" style={{ marginTop: "22px" }}>Download</Button>
                         </Card.Body>
                     </Card>
                 </div >
                 <div className='cardDoisInscrever'>
                     <Card style={{ width: '18rem', height: "31rem" }}>
-                        <Card.Img variant="top" src={Pedra} style={{maxWidth: "90%"}} />
+                        <Card.Img variant="top" src={Pedra} style={{ maxWidth: "80%" }} />
                         <Card.Body>
                             <Card.Title>O Empresário e a Pedra Mágica - Apreciação</Card.Title>
                             <Card.Text>
                                 <p>Era uma vez um empreário que tinha um pequeno negócio. Claro que, sendo um empresário, sua vontade era a de ganhar o máximo de dinheiro possível.</p>
                             </Card.Text>
-                            <Button variant="success">Download</Button>
+                            <Button variant="success" style={{ marginTop: "22px" }}>Download</Button>
                         </Card.Body>
                     </Card>
                 </div >
@@ -71,7 +71,7 @@ function Downloads() {
                             <Card.Text>
                                 <p>Às vezes esquecemos quem somos. por Prem Rawat Ficamos tão envolvidos em nossas causas e definições que não vemos que cada ser humano tem a mesma ambição: ser feliz, estar em paz.</p>
                             </Card.Text>
-                            <Button variant="success">Download</Button>
+                            <Button variant="success" style={{ marginTop: "14px" }}>Download</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -85,10 +85,9 @@ function Downloads() {
                     <Card style={{ width: '18rem', height: "31rem" }}>
                         <Card.Img variant="top" src={Formiga} />
                         <Card.Body>
-                            <Card.Title>Faça uma Doação</Card.Title>
+                            <Card.Title>A História da Formiga</Card.Title>
                             <Card.Text>
-                                A doação para Palavras de Paz é um passo em direção a um futuro melhor. Seu presente significa que podemos ajudar a moldar um mundo mais pacífico, uma pessoa de cada vez.
-                                <b>Você pode fazer parte da conquista pela paz.</b>
+                                <p>Tendemos a analizar tudo. Mas quando sinto sede, não quero uma análise da água. Não quero descrições da água. Só quero saber de conseguir água para saciar minha sede. Essa é a questão – saciar a sede.</p>
                             </Card.Text>
                             <Button variant="success">Download</Button>
                         </Card.Body>
@@ -96,14 +95,13 @@ function Downloads() {
                 </div >
                 <div className='cardDoisInscrever'>
                     <Card style={{ width: '18rem', height: "31rem" }}>
-                        <Card.Img variant="top" src={Arqueiro} />
+                        <Card.Img variant="top" src={Arqueiro} style={{ maxWidth: "97%" }} />
                         <Card.Body>
-                            <Card.Title>Inscreva-se</Card.Title>
+                            <Card.Title>O Arqueiro e o Mercador</Card.Title>
                             <Card.Text>
-                                <b>Você está convidado a se inscrever.</b>
-                                Somente os participantes previamente inscritos poderão participar. É simples e rápido, basta optar pelas formas abaixo, e boa sorte.
+                                <p>Era uma vez um exímio arqueiro que conseguia disparar uma flexa, atingir o alvo e disparar em seguida outra flexa...</p>
                             </Card.Text>
-                            <Button variant="success">Download</Button>
+                            <Button variant="success" style={{ marginTop: "70px" }}>Download</Button>
                         </Card.Body>
                     </Card>
                 </div >
@@ -111,11 +109,11 @@ function Downloads() {
                     <Card style={{ width: '18rem', height: "31rem" }}>
                         <Card.Img src={Irmaos} />
                         <Card.Body>
-                            <Card.Title>Seja um Voluntário!</Card.Title>
+                            <Card.Title style={{ marginTop: "15px" }}>Os Três Irmãos que Encontraram Ouro</Card.Title>
                             <Card.Text>
-                                <b>Precisamos de você</b> para nos ajudar a promover a paz em todo o mundo. Faça parte do voluntariado: doe, socialize, faça compras, vá aos eventos, ou simplesmente assista aos vídeos.
+                                <p>Era uma vez três irmãos que tinham vivido uma infância abastada. Quando ficaram mais velhos, seus pais morreram e eles perderam todo o dinheiro...</p>
                             </Card.Text>
-                            <Button variant="success">Download</Button>
+                            <Button variant="success" style={{ marginTop: "20px" }}>Download</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -123,11 +121,11 @@ function Downloads() {
                     <Card style={{ width: '18rem', height: "31rem" }}>
                         <Card.Img src={Arvore} />
                         <Card.Body>
-                            <Card.Title>Seja um Voluntário!</Card.Title>
+                            <Card.Title style={{ marginTop: "10px" }}>As Árvores do Jardim da Vida</Card.Title>
                             <Card.Text>
-                                <b>Precisamos de você</b> para nos ajudar a promover a paz em todo o mundo. Faça parte do voluntariado: doe, socialize, faça compras, vá aos eventos, ou simplesmente assista aos vídeos.
+                                <p>É uma metáfora, mas é verdade. Quando chegamos a este mundo, algumas sementes nos são dadas, e as perguntas são: O que faremos com essas sementes ? </p>
                             </Card.Text>
-                            <Button variant="success">Download</Button>
+                            <Button variant="success" style={{ marginTop: "20px" }}>Download</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -142,10 +140,9 @@ function Downloads() {
                     <Card style={{ width: '18rem', height: "31rem" }}>
                         <Card.Img variant="top" src={Porta} />
                         <Card.Body>
-                            <Card.Title>Faça uma Doação</Card.Title>
+                            <Card.Title style={{ marginTop: "18px" }}>A Porta até Você</Card.Title>
                             <Card.Text>
-                                A doação para Palavras de Paz é um passo em direção a um futuro melhor. Seu presente significa que podemos ajudar a moldar um mundo mais pacífico, uma pessoa de cada vez.
-                                <b>Você pode fazer parte da conquista pela paz.</b>
+                                <p>Neste Caminho da Existência, não sabemos quais perguntas precisamos fazer para nos orientar. E, se não sabemos de que forma questionar, como iremos encontrar as respostas?</p>
                             </Card.Text>
                             <Button variant="success">Download</Button>
                         </Card.Body>
@@ -155,12 +152,11 @@ function Downloads() {
                     <Card style={{ width: '18rem', height: "31rem" }}>
                         <Card.Img variant="top" src={Coelho} />
                         <Card.Body>
-                            <Card.Title>Inscreva-se</Card.Title>
+                            <Card.Title style={{ marginTop: "10px" }}>O Coelho e o Leão - Contentamento</Card.Title>
                             <Card.Text>
-                                <b>Você está convidado a se inscrever.</b>
-                                Somente os participantes previamente inscritos poderão participar. É simples e rápido, basta optar pelas formas abaixo, e boa sorte.
+                                <p>Queremos ser felizes. Ninguém nos disse isso. Nossas mães não nos disseram. “Sabe de uma coisa? Você vai querer ser feliz.</p>
                             </Card.Text>
-                            <Button variant="success">Download</Button>
+                            <Button variant="success" style={{ marginTop: "17px" }}>Download</Button>
                         </Card.Body>
                     </Card>
                 </div >
@@ -168,11 +164,11 @@ function Downloads() {
                     <Card style={{ width: '18rem', height: "31rem" }}>
                         <Card.Img src={Caderno} />
                         <Card.Body>
-                            <Card.Title>Seja um Voluntário!</Card.Title>
+                            <Card.Title>Caderno de anotações_Parte 1</Card.Title>
                             <Card.Text>
-                                <b>Precisamos de você</b> para nos ajudar a promover a paz em todo o mundo. Faça parte do voluntariado: doe, socialize, faça compras, vá aos eventos, ou simplesmente assista aos vídeos.
+                                <p>“De todas as coisas que fazemos na vida para nos sentirmos bem, a paz é o que nos faz sentir melhor.” </p>
                             </Card.Text>
-                            <Button variant="success">Download</Button>
+                            <Button variant="success" style={{ marginTop: "42px" }}>Download</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -180,11 +176,11 @@ function Downloads() {
                     <Card style={{ width: '18rem', height: "31rem" }}>
                         <Card.Img src={Caderno} />
                         <Card.Body>
-                            <Card.Title>Seja um Voluntário!</Card.Title>
+                            <Card.Title>Caderno de anotações_Parte 2</Card.Title>
                             <Card.Text>
-                                <b>Precisamos de você</b> para nos ajudar a promover a paz em todo o mundo. Faça parte do voluntariado: doe, socialize, faça compras, vá aos eventos, ou simplesmente assista aos vídeos.
+                                <p>“De todas as coisas que fazemos na vida para nos sentirmos bem, a paz é o que nos faz sentir melhor.” </p>
                             </Card.Text>
-                            <Button variant="success">Download</Button>
+                            <Button variant="success" style={{ marginTop: "42px" }}>Download</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -195,162 +191,186 @@ function Downloads() {
 
             <div className='containerDoacao'>
 
+                <div className='cardOneDoacao'>
+                    <Card style={{ width: '18rem', height: "31rem" }}>
+                        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
+                        <Card.Body>
+                            <Card.Title>Artigo 1 - Paz é ... - Paz</Card.Title>
+                            <Card.Text>
+                                <p>Você já ouviu a palavra paz muitas vezes. No entanto, de que tipo de paz estamos falando? Por todo este tempo que falo da paz, tenho notado que cada pessoa tem sua própria definição do que é a paz. </p>
+                            </Card.Text>
+                            <Button variant="success">Download</Button>
+                        </Card.Body>
+                    </Card>
+                </div >
+                <div className='cardDoisInscrever'>
+                    <Card style={{ width: '18rem', height: "31rem" }}>
+                        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
+                        <Card.Body>
+                            <Card.Title>Artigo 2 - Apreciar a Vida - Apreciação</Card.Title>
+                            <Card.Text>
+                                <p>Apreciação começa dentro de você, não em outras pessoas. Apreciar, antes de tudo, o fato de estar vivo. Apreciar por existir dentro de você... </p>
+                            </Card.Text>
+                            <Button variant="success">Download</Button>
+                        </Card.Body>
+                    </Card>
+                </div >
+                <div className='cardTresVoluntario'>
+                    <Card style={{ width: '18rem', height: "31rem" }}>
+                        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
+                        <Card.Body>
+                            <Card.Title>Artigo 3 - A Verdadeira Força - Força Interior</Card.Title>
+                            <Card.Text>
+                                <p>Uma pessoa pode ser incrivelmente bem-sucedida, mas ao mesmo tempo incrivelmente triste, porque a verdadeira felicidade se manifesta de dentro.</p>
+                            </Card.Text>
+                            <Button variant="success">Download</Button>
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className='cardTresVoluntario'>
+                    <Card style={{ width: '18rem', height: "31rem" }}>
+                        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
+                        <Card.Body>
+                            <Card.Title>Artigo 4 - Você Sabe Quem Você É - Auto Conhecimento</Card.Title>
+                            <Card.Text>
+                                <p>Você sabe quem você é? Você não tem que responder isso para os outros. Não para a sua esposa ou seu marido, e não para seus filhos.</p>
+                            </Card.Text>
+                            <Button variant="success">Download</Button>
+                        </Card.Body>
+                    </Card>
+                </div>
+
+
+            </div>
+
+            <div className='containerDoacao'>
+
+                <div className='cardOneDoacao'>
+                    <Card style={{ width: '18rem', height: "31rem" }}>
+                        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
+                        <Card.Body>
+                            <Card.Title>Artigo 5 - Quando Você Tem Clareza - Clareza</Card.Title>
+                            <Card.Text>
+                                <p>Você me ouvirá dizer esta palavra muitas, muitas vezes: clareza.O que quero dizer com ela? O que é clareza? Ter clareza é estar claro, saber o valor do hoje. </p>
+                            </Card.Text>
+                            <Button variant="success">Download</Button>
+                        </Card.Body>
+                    </Card>
+                </div >
+                <div className='cardDoisInscrever'>
+                    <Card style={{ width: '18rem', height: "31rem" }}>
+                        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
+                        <Card.Body>
+                            <Card.Title>Artigo 6 - Um Mundo de Entendimento - Entendimento</Card.Title>
+                            <Card.Text>
+                                <p>A vida é um presente. Eu quero entender isso com a maior clareza possível antes que eu perca a capacidade de entender. </p>
+                            </Card.Text>
+                            <Button variant="success">Download</Button>
+                        </Card.Body>
+                    </Card>
+                </div >
+                <div className='cardTresVoluntario'>
+                    <Card style={{ width: '18rem', height: "31rem" }}>
+                        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
+                        <Card.Body>
+                            <Card.Title>Artigo 7 - Um Pouco de Espaço - Dignidade</Card.Title>
+                            <Card.Text>
+                                <p>Quando penso sobre o que quero, apenas como ser humano, a lista de quesitos não é assim tão grande. O que quero, e o que todos querem... </p>
+                            </Card.Text>
+                            <Button variant="success" style={{marginTop: "20px"}}>Download</Button>
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className='cardTresVoluntario'>
+                    <Card style={{ width: '18rem', height: "31rem" }}>
+                        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
+                        <Card.Body>
+                            <Card.Title>Artigo 8 - Sua Escolha - Escolha</Card.Title>
+                            <Card.Text>
+                                <p>Paz é quando você está inteiro. Paz é quando você está completo, quando você entende. Tudo depende das escolhas que você faz em sua vida.</p>
+                            </Card.Text>
+                            <Button variant="success">Download</Button>
+                        </Card.Body>
+                    </Card>
+                </div>
+
+
+            </div>
+
+            <div className='containerDoacao'>
+
+                <div className='cardOneDoacao'>
+                    <Card style={{ width: '18rem', height: "31rem" }}>
+                        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
+                        <Card.Body>
+                            <Card.Title>Artigo 9 - O Oceano da Esperança - Esperança</Card.Title>
+                            <Card.Text>
+                                <p>Eu tenho algo muito especial para dizer: existe esperança todos os dias. Não é uma questão de anos, não é uma questão de meses, também não é uma questão de semanas. </p>
+                            </Card.Text>
+                            <Button variant="success">Download</Button>
+                        </Card.Body>
+                    </Card>
+                </div >
+                <div className='cardDoisInscrever'>
+                    <Card style={{ width: '18rem', height: "31rem" }}>
+                        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
+                        <Card.Body>
+                            <Card.Title>Artigo 10 - O Som de Estar Contente - Contentamento</Card.Title>
+                            <Card.Text>
+                                <p>Todos nós somos seres humanos. E de certa forma nossas vidas são semelhantes. Acordamos de manhã. Temos nossos trabalhos, nossas responsabilidades.</p>
+                            </Card.Text>
+                            <Button variant="success">Download</Button>
+                        </Card.Body>
+                    </Card>
+                </div >
+                <div className='cardTresVoluntario'>
+                    <Card style={{ width: '18rem', height: "31rem" }}>
+                        <Card.Img variant="top" src={Caderno} style={{ maxWidth: "70%", marginLeft: "40px" }} />
+                        <Card.Body>
+                            <Card.Title style={{marginTop: "55px"}}>Caderno de Anotações</Card.Title>
+                            <Card.Text>
+                                <p>“De todas as coisas que fazemos na vida para nos sentirmos bem, a paz é o que nos faz sentir melhor.” </p>
+                            </Card.Text>
+                            <Button variant="success" style={{marginTop: "75px"}}>Download</Button>
+                        </Card.Body>
+                    </Card>
+                </div>
+            </div>
+
+
+            <div className='containerDoacao'>
+
 <div className='cardOneDoacao'>
     <Card style={{ width: '18rem', height: "31rem" }}>
-        <Card.Img variant="top" src={Paz} style={{maxWidth: "70%", marginLeft: "40px"}}  />
+        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
         <Card.Body>
-            <Card.Title>Faça uma Doação</Card.Title>
+            <Card.Title>PEP 03 - completo</Card.Title>
             <Card.Text>
-                A doação para Palavras de Paz é um passo em direção a um futuro melhor. Seu presente significa que podemos ajudar a moldar um mundo mais pacífico, uma pessoa de cada vez.
-                <b>Você pode fazer parte da conquista pela paz.</b>
+                <p>Quando vim para o Ocidente, eu tinha apenas 13 anos. E as pessoas vinham me ver – adultos mais velhos, mais educados, mais inteligentes do que eu. Pelo menos, era assim que eles pareciam. </p>
             </Card.Text>
             <Button variant="success">Download</Button>
         </Card.Body>
     </Card>
 </div >
 <div className='cardDoisInscrever'>
-<Card style={{ width: '18rem', height: "31rem" }}>
-        <Card.Img variant="top" src={Paz} style={{maxWidth: "70%", marginLeft: "40px"}}  />
+    <Card style={{ width: '18rem', height: "31rem" }}>
+        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
         <Card.Body>
-            <Card.Title>Faça uma Doação</Card.Title>
+            <Card.Title>PEP 04 - completo</Card.Title>
             <Card.Text>
-                A doação para Palavras de Paz é um passo em direção a um futuro melhor. Seu presente significa que podemos ajudar a moldar um mundo mais pacífico, uma pessoa de cada vez.
-                <b>Você pode fazer parte da conquista pela paz.</b>
+                <p>Eu estou aqui para falar sobre algo muito fundamental. Você tem um anseio, um desejo a ser preenchido. E esse desejo não desaparecerá enquanto você viver.</p>
             </Card.Text>
-            <Button variant="success">Download</Button>
+            <Button variant="success" style={{marginTop: "20px"}}>Download</Button>
         </Card.Body>
     </Card>
 </div >
-<div className='cardTresVoluntario'>
-<Card style={{ width: '18rem', height: "31rem" }}>
-        <Card.Img variant="top" src={Paz} style={{maxWidth: "70%", marginLeft: "40px"}}  />
-        <Card.Body>
-            <Card.Title>Faça uma Doação</Card.Title>
-            <Card.Text>
-                A doação para Palavras de Paz é um passo em direção a um futuro melhor. Seu presente significa que podemos ajudar a moldar um mundo mais pacífico, uma pessoa de cada vez.
-                <b>Você pode fazer parte da conquista pela paz.</b>
-            </Card.Text>
-            <Button variant="success">Download</Button>
-        </Card.Body>
-    </Card>
-</div>
-<div className='cardTresVoluntario'>
-<Card style={{ width: '18rem', height: "31rem" }}>
-        <Card.Img variant="top" src={Paz} style={{maxWidth: "70%", marginLeft: "40px"}}  />
-        <Card.Body>
-            <Card.Title>Faça uma Doação</Card.Title>
-            <Card.Text>
-                A doação para Palavras de Paz é um passo em direção a um futuro melhor. Seu presente significa que podemos ajudar a moldar um mundo mais pacífico, uma pessoa de cada vez.
-                <b>Você pode fazer parte da conquista pela paz.</b>
-            </Card.Text>
-            <Button variant="success">Download</Button>
-        </Card.Body>
-    </Card>
-</div>
-
 
 </div>
 
-<div className='containerDoacao'>
-
-<div className='cardOneDoacao'>
-<Card style={{ width: '18rem', height: "31rem" }}>
-        <Card.Img variant="top" src={Paz} style={{maxWidth: "70%", marginLeft: "40px"}}  />
-        <Card.Body>
-            <Card.Title>Faça uma Doação</Card.Title>
-            <Card.Text>
-                A doação para Palavras de Paz é um passo em direção a um futuro melhor. Seu presente significa que podemos ajudar a moldar um mundo mais pacífico, uma pessoa de cada vez.
-                <b>Você pode fazer parte da conquista pela paz.</b>
-            </Card.Text>
-            <Button variant="success">Download</Button>
-        </Card.Body>
-    </Card>
-</div >
-<div className='cardDoisInscrever'>
-<Card style={{ width: '18rem', height: "31rem" }}>
-        <Card.Img variant="top" src={Paz} style={{maxWidth: "70%", marginLeft: "40px"}}  />
-        <Card.Body>
-            <Card.Title>Faça uma Doação</Card.Title>
-            <Card.Text>
-                A doação para Palavras de Paz é um passo em direção a um futuro melhor. Seu presente significa que podemos ajudar a moldar um mundo mais pacífico, uma pessoa de cada vez.
-                <b>Você pode fazer parte da conquista pela paz.</b>
-            </Card.Text>
-            <Button variant="success">Download</Button>
-        </Card.Body>
-    </Card>
-</div >
-<div className='cardTresVoluntario'>
-<Card style={{ width: '18rem', height: "31rem" }}>
-        <Card.Img variant="top" src={Paz} style={{maxWidth: "70%", marginLeft: "40px"}}  />
-        <Card.Body>
-            <Card.Title>Faça uma Doação</Card.Title>
-            <Card.Text>
-                A doação para Palavras de Paz é um passo em direção a um futuro melhor. Seu presente significa que podemos ajudar a moldar um mundo mais pacífico, uma pessoa de cada vez.
-                <b>Você pode fazer parte da conquista pela paz.</b>
-            </Card.Text>
-            <Button variant="success">Download</Button>
-        </Card.Body>
-    </Card>
-</div>
-<div className='cardTresVoluntario'>
-<Card style={{ width: '18rem', height: "31rem" }}>
-        <Card.Img variant="top" src={Paz} style={{maxWidth: "70%", marginLeft: "40px"}}  />
-        <Card.Body>
-            <Card.Title>Faça uma Doação</Card.Title>
-            <Card.Text>
-                A doação para Palavras de Paz é um passo em direção a um futuro melhor. Seu presente significa que podemos ajudar a moldar um mundo mais pacífico, uma pessoa de cada vez.
-                <b>Você pode fazer parte da conquista pela paz.</b>
-            </Card.Text>
-            <Button variant="success">Download</Button>
-        </Card.Body>
-    </Card>
-</div>
 
 
-</div>
 
-<div className='containerDoacao'>
 
-<div className='cardOneDoacao'>
-<Card style={{ width: '18rem', height: "31rem" }}>
-        <Card.Img variant="top" src={Paz} style={{maxWidth: "70%", marginLeft: "40px"}}  />
-        <Card.Body>
-            <Card.Title>Faça uma Doação</Card.Title>
-            <Card.Text>
-                A doação para Palavras de Paz é um passo em direção a um futuro melhor. Seu presente significa que podemos ajudar a moldar um mundo mais pacífico, uma pessoa de cada vez.
-                <b>Você pode fazer parte da conquista pela paz.</b>
-            </Card.Text>
-            <Button variant="success">Download</Button>
-        </Card.Body>
-    </Card>
-</div >
-<div className='cardDoisInscrever'>
-<Card style={{ width: '18rem', height: "31rem" }}>
-        <Card.Img variant="top" src={Paz} style={{maxWidth: "70%", marginLeft: "40px"}}  />
-        <Card.Body>
-            <Card.Title>Faça uma Doação</Card.Title>
-            <Card.Text>
-                A doação para Palavras de Paz é um passo em direção a um futuro melhor. Seu presente significa que podemos ajudar a moldar um mundo mais pacífico, uma pessoa de cada vez.
-                <b>Você pode fazer parte da conquista pela paz.</b>
-            </Card.Text>
-            <Button variant="success">Download</Button>
-        </Card.Body>
-    </Card>
-</div >
-<div className='cardTresVoluntario'>
-<Card style={{ width: '18rem', height: "31rem" }}>
-        <Card.Img variant="top" src={Paz} style={{maxWidth: "70%", marginLeft: "40px"}}  />
-        <Card.Body>
-            <Card.Title>Faça uma Doação</Card.Title>
-            <Card.Text>
-                A doação para Palavras de Paz é um passo em direção a um futuro melhor. Seu presente significa que podemos ajudar a moldar um mundo mais pacífico, uma pessoa de cada vez.
-                <b>Você pode fazer parte da conquista pela paz.</b>
-            </Card.Text>
-            <Button variant="success">Download</Button>
-        </Card.Body>
-    </Card>
-</div>
-</div>
             <Footer />
         </Fragment>
     )
