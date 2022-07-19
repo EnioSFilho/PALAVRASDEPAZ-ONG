@@ -22,9 +22,9 @@ const Header: React.FC = () => {
                             className="me-auto my-2 my-lg-0"
                             style={{ maxHeight: '100px' }}
                             navbarScroll>
-                            <Nav.Link href="#action1">Início</Nav.Link>
+                            <Nav.Link href="/">Início</Nav.Link>
                             <NavDropdown title="Sobre nós" id="navbarScrollingDropdown">
-                                <NavDropdown.Item href="#action2">Nossa Equipe</NavDropdown.Item>
+                                <NavDropdown.Item href="/equipe">Nossa Equipe</NavDropdown.Item>
                                 <NavDropdown.Item href="#action3"> Downloads</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action4">Perguntas e Respostas</NavDropdown.Item>
