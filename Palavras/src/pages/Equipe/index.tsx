@@ -1,14 +1,15 @@
 import React, { Fragment } from 'react'
-import Equipe from '../../components/Equipe'
+import Colaboradores from '../../components/Colaboradores'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 
-export default function Colaboradores(): JSX.Element {
+ function Equipe() {
   return (
     <Fragment>
         <Header/>
-        <Equipe/>
+         <Colaboradores/>
         <Footer/>
     </Fragment>
   )
 }
+export default Equipe

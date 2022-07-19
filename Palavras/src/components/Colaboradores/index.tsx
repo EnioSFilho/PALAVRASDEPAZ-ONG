@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {  Carousel,  CarouselItem,  CarouselControl,  CarouselIndicators,  CarouselCaption} from 'reactstrap';
-import Footer from '../Footer';
-import Header from '../Header';
+
 
 
 const items = [
@@ -29,7 +28,7 @@ const items = [
   }
 ];
 
-const Equipe = (props:any) => {
+const Colaboradores = (props:any) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -96,4 +95,4 @@ const Equipe = (props:any) => {
   );
 }
 
-export default Equipe;
+export default Colaboradores;
