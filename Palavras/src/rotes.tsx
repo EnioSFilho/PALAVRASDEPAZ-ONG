@@ -8,7 +8,6 @@ import Header from './components/Header';
 import Paginaprograma from './components/Paginaprograma';
 import Paz from './components/Paz';
 import Sobrenos from './components/Sobrenos';
-import Teste from './components/teste';
 import Zoom from './components/Zoon';
 import Colaboradores from './pages/Equipe';
 import Home from './pages/Home';
