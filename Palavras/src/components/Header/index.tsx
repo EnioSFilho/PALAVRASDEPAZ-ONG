@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Button, Container, Form, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Logo from "../../assets/images/logo.png"
 import "./styles.css"
 
@@ -25,7 +26,7 @@ const Header: React.FC = () => {
                             <Nav.Link href="/">Início</Nav.Link>
                             <NavDropdown title="Sobre nós" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="/equipe">Nossa Equipe</NavDropdown.Item>
-                                <NavDropdown.Item href="#action3"> Downloads</NavDropdown.Item>
+                                    <NavDropdown.Item ><Link to="/downloads">Downloads</Link></NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action4">Perguntas e Respostas</NavDropdown.Item>
                             </NavDropdown>

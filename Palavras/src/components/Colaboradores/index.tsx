@@ -5,27 +5,169 @@ import {  Carousel,  CarouselItem,  CarouselControl,  CarouselIndicators,  Carou
 
 const items = [
   {
-    src: 'http://palavrasdepaz.kinghost.net/assets/doacao.edd6239c.png',
-    
-    caption: 'Enio',
-    altText: 'Desenvolvedor Front-End',
-    
-   
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Aline.png',
+    caption: 'Aline',
+    altText: 'Designer',
     id: 1
   },
   {
-    src: 'https://picsum.photos/id/456/1200/400',
-    caption: 'Slide 2',
-    altText: 'Slide 2',
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Enio.png',
+    caption: 'Enio',
+    altText: 'Desenvolvedor Fron-End',
     
     id: 2
   },
   {
-    src: 'https://picsum.photos/id/678/1200/400',
-    altText: 'Slide 3',
-    caption: 'Slide 3',
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/IveteBelfort.png',
+    altText: 'Presidente da ONG Palavras de Paz e Licenciada pela Fundação TPRF',
+    caption: 'Ivete Belfort',
     id: 3
-  }
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Viniciussouza.png',
+    caption: 'Vinicius',
+    altText: 'Responsável pela emissão de certificados, declarações dos voluntários e inovações do banco de dados',
+    id: 4
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/DaniloJese.png',
+    caption: 'Danilo Jese',
+    altText: 'Facilitador',
+    id: 5
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/AnnaSquadroni.png',
+    caption: 'Anna Squadroni Tavernaro',
+    altText: 'Responsável pela distribuição de cadernos e homologações de cada turma',
+    id: 6
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/NayaraSwarowski.png ',
+    caption: 'Nayara Swarowski',
+    altText: 'Responsável pelo registro de presenças e Processo de Habilitação dos Voluntários',
+    id: 7
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/JessicaLima.png',
+    caption: 'Jessica Lima',
+    altText: 'Webmaster, Webdesigner e SEO do site Palavras de Paz',
+    id: 8
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/PaolaSqyadroni.png',
+    caption: 'Paola Squadroni',
+    altText: 'Coordenação de voluntários',
+    id: 9
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Raphael.png',
+    caption: 'Raphael',
+    altText: 'Facilitador e Operador',
+    id: 10
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Bianca.png',
+    caption: 'Bianca',
+    altText: 'Facilitadora e Operadora',
+    id: 11
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/MatheusLucinski.png',
+    caption: 'Matheus Lucinski',
+    altText: 'Responsável pela Comunicação, Projetos e Facilitador',
+    id: 12
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/TakutaGeane.png',
+    caption: 'Talita Geane',
+    altText: 'Facilitadora',
+    id: 13
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Paulla.png',
+    caption: 'Paulla',
+    altText: 'Facilitadora',
+    id: 14
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Bruna.png',
+    caption: 'Bruna',
+    altText: 'Facilitadora',
+    id: 15
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/CleideDinardi.png',
+    caption: 'Cleide Dinardi',
+    altText: 'Facilitadora e Coach',
+    id: 16
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Lucimar.png',
+    caption: 'Lucimar',
+    altText: 'Facilitadora e Coach',
+    id: 17
+  },
+  
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Diva.png',
+    caption: 'Diva',
+    altText: 'Palhaça Voluntária e Coach',
+    id: 18
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Diva2.png',
+    caption: 'Diva',
+    altText: 'Facilitadora',
+    id: 19
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Gianfranco.png',
+    caption: 'Gianfranco',
+    altText: 'TI de todo tráfico de documentos entre prisões',
+    id: 20
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Ana.png',
+    caption: 'Ana',
+    altText: 'Criação de posts',
+    id: 21
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Juliana.png',
+    caption: 'Juliana',
+    altText: ' Integração de voluntários',
+    id: 22
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Iris.png',
+    caption: 'Iris​​',
+    altText: ' Facilitadora',
+    id: 23
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Zita.png',
+    caption: 'Zita',
+    altText: ' Estatisticas de Presenças e comparecimentos aos cursos',
+    id: 24
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Juliana.png',
+    caption: 'Anaide',
+    altText: ' Relatórios de Avaliação de cadernos para TPRF',
+    id: 25
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Anaide.png',
+    caption: 'Juliana',
+    altText: ' Integração de voluntários',
+    id: 26
+  },
+  {
+    src: '',
+    caption: 'Mendes',
+    altText: ' Desenvolvedor FullStack',
+    id: 27
+  },
 ];
 
 const Colaboradores = (props:any) => {
