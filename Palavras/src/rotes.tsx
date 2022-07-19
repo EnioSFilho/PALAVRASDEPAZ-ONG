@@ -41,7 +41,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/paz" element={<Paz/>} />
         <Route path="/footer" element={<Footer/>} />
         <Route path="/equipe" element={<Colaboradores/>} />
-        <Route path="/teste" element={<Teste/>} />
+        
        
     
        
