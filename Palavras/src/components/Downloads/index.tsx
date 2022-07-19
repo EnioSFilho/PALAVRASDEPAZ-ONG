@@ -199,7 +199,7 @@ function Downloads() {
                             <Card.Text>
                                 <p>Você já ouviu a palavra paz muitas vezes. No entanto, de que tipo de paz estamos falando? Por todo este tempo que falo da paz, tenho notado que cada pessoa tem sua própria definição do que é a paz. </p>
                             </Card.Text>
-                            <Button variant="success">Download</Button>
+                           <a href="href='https://palavrasdepaz.kinghost.net/www/Downloads/Arquivos/Artigo%201%20-%20Paz%20%C3%A9%20...%20-%20Paz.pdf'"> <Button variant="success">Download</Button></a>
                         </Card.Body>
                     </Card>
                 </div >
@@ -360,7 +360,7 @@ function Downloads() {
             <Card.Text>
                 <p>Eu estou aqui para falar sobre algo muito fundamental. Você tem um anseio, um desejo a ser preenchido. E esse desejo não desaparecerá enquanto você viver.</p>
             </Card.Text>
-            <Button variant="success" style={{marginTop: "20px"}}>Download</Button>
+            <a  ><Button variant="success" style={{marginTop: "20px"}}>Download</Button></a>
         </Card.Body>
     </Card>
 </div >
