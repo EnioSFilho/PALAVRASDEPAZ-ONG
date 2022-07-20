@@ -17,6 +17,7 @@ import Perguntas from './components/Perguntas';
 
 
 
+
 const MyRoutes: React.FC = () => {
 
   
@@ -45,6 +46,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/equipe" element={<Equipe/>} />
         <Route path="/downloads" element={<Download/>} />
         <Route path="/perguntas" element={<Perguntas/>} />
+        
         
            
        
