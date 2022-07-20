@@ -29,7 +29,7 @@ function Perguntas() {
                     </Accordion.Item>
 
                     <Accordion.Item eventKey="1">
-                        <Accordion.Header>O que é o Programa de Educação para a Paz?</Accordion.Header>
+                        <Accordion.Header >O que é o Programa de Educação para a Paz?</Accordion.Header>
                         <Accordion.Body>
                             Desenvolvido pela <b>TPRF</b>, o Programa de Educação para a Paz é um currículo de 10 workshops multimídia facilitados com base em temas projetados para explorar os recursos internos de uma pessoa. O conteúdo de cada workshop é baseado em trechos das palestras internacionais sobre paz pessoal ministradas pelo fundador da <b>TPRF, Prem Rawat</b>.
                         </Accordion.Body>

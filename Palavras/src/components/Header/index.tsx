@@ -23,9 +23,9 @@ const Header: React.FC = () => {
                             className="me-auto my-2 my-lg-0"
                             style={{ maxHeight: '100px' }}
                             navbarScroll>
-                            <Nav.Link href="/">Início</Nav.Link>
-                            <NavDropdown title="Sobre nós" id="navbarScrollingDropdown">
-                                <NavDropdown.Item href="/equipe">Nossa Equipe</NavDropdown.Item>
+                            <Nav.Link > <Link to="/" style={{textDecoration: "none" , color: "#00A97E"}}> Início</Link></Nav.Link>
+                            <NavDropdown  title="Sobre nós" id="navbarScrollingDropdown">
+                                <NavDropdown.Item >  <Link to="/equipe" style={{textDecoration: "none" , color: "#00A97E"}}>Nossa Equipe</Link></NavDropdown.Item>
                                     <NavDropdown.Item ><Link to="/downloads"style={{textDecoration: "none" , color: "#00A97E"}}>Downloads</Link></NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item ><Link to="/perguntas" style={{textDecoration: "none" , color: "#00A97E"}}>Perguntas e Respostas</Link></NavDropdown.Item>

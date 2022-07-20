@@ -5,8 +5,8 @@ import {  Carousel,  CarouselItem,  CarouselControl,  CarouselIndicators,  Carou
 
 const items = [
   {
-    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Aline.png',
-    caption: 'Aline',
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Beatriz.png',
+    caption: 'Beatriz',
     altText: 'Designer',
     id: 1
   },
@@ -42,15 +42,15 @@ const items = [
     id: 6
   },
   {
-    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/NayaraSwarowski.png ',
-    caption: 'Nayara Swarowski',
-    altText: 'Responsável pelo registro de presenças e Processo de Habilitação dos Voluntários',
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/camilanascimento.png ',
+    caption: 'Camila Nascimento',
+    altText: 'Tradutora',
     id: 7
   },
   {
-    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/JessicaLima.png',
-    caption: 'Jessica Lima',
-    altText: 'Webmaster, Webdesigner e SEO do site Palavras de Paz',
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/homero.png',
+    caption: 'Homero',
+    altText: 'Facilitador',
     id: 8
   },
   {
@@ -72,9 +72,9 @@ const items = [
     id: 11
   },
   {
-    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/MatheusLucinski.png',
-    caption: 'Matheus Lucinski',
-    altText: 'Responsável pela Comunicação, Projetos e Facilitador',
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Isabella.png',
+    caption: 'Isabella Goulart',
+    altText: 'Tradutora',
     id: 12
   },
   {
@@ -139,9 +139,9 @@ const items = [
     id: 22
   },
   {
-    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Iris.png',
-    caption: 'Iris​​',
-    altText: ' Facilitadora',
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/karinealcantara.png',
+    caption: 'Karine Alcântara​​',
+    altText: 'Tradutora',
     id: 23
   },
   {
@@ -157,16 +157,40 @@ const items = [
     id: 25
   },
   {
-    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Anaide.png',
-    caption: 'Juliana',
-    altText: ' Integração de voluntários',
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/mariastelagomes.png',
+    caption: 'Maria Stela Gomes',
+    altText: 'Avaliadora de caderno de presos',
     id: 26
   },
   {
-    src: '',
-    caption: 'Mendes',
-    altText: ' Desenvolvedor FullStack',
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/monica.png',
+    caption: 'Mônica',
+    altText: ' Facilitadora',
     id: 27
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/monica.png',
+    caption: 'Mônica',
+    altText: ' Facilitadora',
+    id: 28
+  },
+  {
+    src: '',
+    caption: 'Felipe Mendes',
+    altText: ' Desenvolvedor FullStack',
+    id: 29
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Paty.png',
+    caption: 'Paty',
+    altText: 'Mídias Sociais',
+    id: 30
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/susane.png',
+    caption: 'Susane',
+    altText: 'Facilitadora',
+    id: 30
   },
 ];
 

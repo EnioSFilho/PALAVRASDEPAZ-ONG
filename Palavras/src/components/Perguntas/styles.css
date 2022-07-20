@@ -12,27 +12,20 @@
 }
 
 .accordion-item:first-of-type .accordion-button {
-    
-    font-style: normal;
-    font-weight: 500;
+      
     font-size: 24px;
 }
+
+
 
 .accordion-button:not(.collapsed) {
-    color: #00A97E  !important;
-    background-color: #00A97E !important;
-    font-style: normal;
-    font-weight: 500;
+    color: #f7f6f6 !important;
+    background-color: #00A97E  !important;
     font-size: 24px;
-    opacity: 0.8;
     transition: 1s;
+    opacity: 90%;
         
 }
-.accordion-button:not(.collapsed){
-    color: #f7f6f6 !important;
-} 
-
-
 
 .accordion-button:focus {
     box-shadow: none;
