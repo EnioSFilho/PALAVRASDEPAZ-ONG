@@ -26,9 +26,9 @@ const Header: React.FC = () => {
                             <Nav.Link href="/">Início</Nav.Link>
                             <NavDropdown title="Sobre nós" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="/equipe">Nossa Equipe</NavDropdown.Item>
-                                    <NavDropdown.Item ><Link to="/downloads">Downloads</Link></NavDropdown.Item>
+                                    <NavDropdown.Item ><Link to="/downloads"style={{textDecoration: "none" , color: "#00A97E"}}>Downloads</Link></NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action4">Perguntas e Respostas</NavDropdown.Item>
+                                <NavDropdown.Item ><Link to="/perguntas" style={{textDecoration: "none" , color: "#00A97E"}}>Perguntas e Respostas</Link></NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Programa" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action1">Conheça o Programa</NavDropdown.Item>

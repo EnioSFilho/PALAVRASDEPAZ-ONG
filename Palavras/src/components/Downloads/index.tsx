@@ -15,11 +15,12 @@ import Porta from "../../assets/Downloads/Imagens/porta.png"
 import Coelho from "../../assets/Downloads/Imagens/coelho.png"
 import Caderno from "../../assets/Downloads/Imagens/caderno1.png"
 import Paz from "../../assets/Downloads/Imagens/paz.png"
+import { Link } from 'react-router-dom'
 
 function Downloads() {
     return (
         <Fragment>
-            
+
 
             <div className='headerSombraDoacao'></div>
             <div className='containerDoacao'>
@@ -32,8 +33,9 @@ function Downloads() {
                             <Card.Text>
                                 <p>Era uma vez uma aldeia distante onde viviam pessoas muito simples. Um dia, chegou um turista. Na manhã seguinte, ele pegou seu espelho e colocou-o na parede para se barbear. </p>
                             </Card.Text>
-                            <Button variant="success" style={{ marginTop: "22px" }}>Download</Button>
+                          <a href= 'downloads/arquivos/Artigo%201-%20O%20Espelho%20na%20Parede%20-%20Paz.pdf' >  <Button variant="success" style={{ marginTop: "22px" }}>Download</Button></a>
                         </Card.Body>
+                        
                     </Card>
                 </div >
                 <div className='cardDoisInscrever'>
@@ -44,7 +46,7 @@ function Downloads() {
                             <Card.Text>
                                 <p>Era uma vez um empreário que tinha um pequeno negócio. Claro que, sendo um empresário, sua vontade era a de ganhar o máximo de dinheiro possível.</p>
                             </Card.Text>
-                            <Button variant="success" style={{ marginTop: "22px" }}>Download</Button>
+                           <a href= 'downloads/arquivos/Artigo%202-%20O%20Empres%C3%A1rio%20e%20a%20Pedra%20M%C3%A1gica%20-%20Aprecia%C3%A7%C3%A3o.pdf'> <Button variant="success" style={{ marginTop: "22px" }}>Download</Button></a>
                         </Card.Body>
                     </Card>
                 </div >
@@ -56,7 +58,7 @@ function Downloads() {
                             <Card.Text>
                                 <p>NESTA VIDA você é um viajante solitário. E se você não entender a natureza da viagem, vai se perder, porque a vida é a única jornada que, por natureza, não pode andar em um círculos.</p>
                             </Card.Text>
-                            <Button variant="success">Download</Button>
+                           <a href='downloads/arquivos/ Artigo_3-_A_Jornada_da_Vida_-_For%C3%A7a_Interior.pdf'> <Button variant="success">Download</Button></a>
                         </Card.Body>
                     </Card>
                 </div>
@@ -68,7 +70,7 @@ function Downloads() {
                             <Card.Text>
                                 <p>Às vezes esquecemos quem somos. por Prem Rawat Ficamos tão envolvidos em nossas causas e definições que não vemos que cada ser humano tem a mesma ambição: ser feliz, estar em paz.</p>
                             </Card.Text>
-                            <Button variant="success" style={{ marginTop: "14px" }}>Download</Button>
+                           <a href='downloads/arquivos/Artigo_4-_O_Le%C3%A3o_e_a_Ovelha_-_Auto_Conhecimento.pdf'></a> <Button variant="success" style={{ marginTop: "14px" }}>Download</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -196,7 +198,7 @@ function Downloads() {
                             <Card.Text>
                                 <p>Você já ouviu a palavra paz muitas vezes. No entanto, de que tipo de paz estamos falando? Por todo este tempo que falo da paz, tenho notado que cada pessoa tem sua própria definição do que é a paz. </p>
                             </Card.Text>
-                           <a > <Button variant="success">Download</Button></a>
+                            <a > <Button variant="success">Download</Button></a>
                         </Card.Body>
                     </Card>
                 </div >
@@ -274,7 +276,7 @@ function Downloads() {
                             <Card.Text>
                                 <p>Quando penso sobre o que quero, apenas como ser humano, a lista de quesitos não é assim tão grande. O que quero, e o que todos querem... </p>
                             </Card.Text>
-                            <Button variant="success" style={{marginTop: "20px"}}>Download</Button>
+                            <Button variant="success" style={{ marginTop: "20px" }}>Download</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -324,11 +326,11 @@ function Downloads() {
                     <Card style={{ width: '18rem', height: "31rem" }}>
                         <Card.Img variant="top" src={Caderno} style={{ maxWidth: "70%", marginLeft: "40px" }} />
                         <Card.Body>
-                            <Card.Title style={{marginTop: "55px"}}>Caderno de Anotações</Card.Title>
+                            <Card.Title style={{ marginTop: "55px" }}>Caderno de Anotações</Card.Title>
                             <Card.Text>
                                 <p>“De todas as coisas que fazemos na vida para nos sentirmos bem, a paz é o que nos faz sentir melhor.” </p>
                             </Card.Text>
-                            <Button variant="success" style={{marginTop: "75px"}}>Download</Button>
+                            <Button variant="success" style={{ marginTop: "75px" }}>Download</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -337,38 +339,38 @@ function Downloads() {
 
             <div className='containerDoacao'>
 
-<div className='cardOneDoacao'>
-    <Card style={{ width: '18rem', height: "31rem" }}>
-        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
-        <Card.Body>
-            <Card.Title>PEP 03 - completo</Card.Title>
-            <Card.Text>
-                <p>Quando vim para o Ocidente, eu tinha apenas 13 anos. E as pessoas vinham me ver – adultos mais velhos, mais educados, mais inteligentes do que eu. Pelo menos, era assim que eles pareciam. </p>
-            </Card.Text>
-            <Button variant="success">Download</Button>
-        </Card.Body>
-    </Card>
-</div >
-<div className='cardDoisInscrever'>
-    <Card style={{ width: '18rem', height: "31rem" }}>
-        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
-        <Card.Body>
-            <Card.Title>PEP 04 - completo</Card.Title>
-            <Card.Text>
-                <p>Eu estou aqui para falar sobre algo muito fundamental. Você tem um anseio, um desejo a ser preenchido. E esse desejo não desaparecerá enquanto você viver.</p>
-            </Card.Text>
-            <a  ><Button variant="success" style={{marginTop: "20px"}}>Download</Button></a>
-        </Card.Body>
-    </Card>
-</div >
+                <div className='cardOneDoacao'>
+                    <Card style={{ width: '18rem', height: "31rem" }}>
+                        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
+                        <Card.Body>
+                            <Card.Title>PEP 03 - completo</Card.Title>
+                            <Card.Text>
+                                <p>Quando vim para o Ocidente, eu tinha apenas 13 anos. E as pessoas vinham me ver – adultos mais velhos, mais educados, mais inteligentes do que eu. Pelo menos, era assim que eles pareciam. </p>
+                            </Card.Text>
+                            <Button variant="success">Download</Button>
+                        </Card.Body>
+                    </Card>
+                </div >
+                <div className='cardDoisInscrever'>
+                    <Card style={{ width: '18rem', height: "31rem" }}>
+                        <Card.Img variant="top" src={Paz} style={{ maxWidth: "70%", marginLeft: "40px" }} />
+                        <Card.Body>
+                            <Card.Title>PEP 04 - completo</Card.Title>
+                            <Card.Text>
+                                <p>Eu estou aqui para falar sobre algo muito fundamental. Você tem um anseio, um desejo a ser preenchido. E esse desejo não desaparecerá enquanto você viver.</p>
+                            </Card.Text>
+                            <a  ><Button variant="success" style={{ marginTop: "20px" }}>Download</Button></a>
+                        </Card.Body>
+                    </Card>
+                </div >
 
-</div>
-
-
+            </div>
 
 
 
-           
+
+
+
         </Fragment>
     )
 }
