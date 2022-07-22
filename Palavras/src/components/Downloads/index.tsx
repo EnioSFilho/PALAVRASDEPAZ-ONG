@@ -58,7 +58,7 @@ function Downloads() {
                             <Card.Text>
                                 <p>NESTA VIDA você é um viajante solitário. E se você não entender a natureza da viagem, vai se perder, porque a vida é a única jornada que, por natureza, não pode andar em um círculos.</p>
                             </Card.Text>
-                           <a href='downloads/arquivos/ Artigo_3-_A_Jornada_da_Vida_-_For%C3%A7a_Interior.pdf' target="blank"> <Button variant="success">Download</Button></a>
+                           <a download='http://palavrasdepaz.kinghost.net/downloads/arquivos/ Artigo_3-_A_Jornada_da_Vida_-_For%C3%A7a_Interior.pdf'> <Button variant="success">Download</Button></a>
                         </Card.Body>
                     </Card>
                 </div>
