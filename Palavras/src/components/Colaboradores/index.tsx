@@ -7,7 +7,7 @@ const items = [
   {
     src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Beatriz.png',
     caption: 'Beatriz',
-    altText: 'Designer',
+    altText: 'Mídias Sociais',
     id: 1
   },
   {
@@ -129,7 +129,7 @@ const items = [
   {
     src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/Ana.png',
     caption: 'Ana',
-    altText: 'Criação de posts',
+    altText: 'Mídias Sociais',
     id: 21
   },
   
@@ -160,9 +160,9 @@ const items = [
   },
   
   {
-    src: '',
-    caption: 'Felipe Mendes',
-    altText: ' Desenvolvedor FullStack',
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/fernandacarramate.png',
+    caption: 'Fernanda Carramate',
+    altText: ' Tradutora - Cordenação de Tradução',
     id: 26
   },
   {
@@ -176,6 +176,24 @@ const items = [
     caption: 'Susane',
     altText: 'Facilitadora',
     id: 28
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/elisandra.png',
+    caption: 'Elisandra',
+    altText: 'Suporte e Avaliação de Cadernos',
+    id: 29
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/marceloavelar.png',
+    caption: 'Marcelo Avelar',
+    altText: 'Suporte e Avaliação de Cadernos',
+    id: 30
+  },
+  {
+    src: 'http://palavrasdepaz.kinghost.net/assets/colaboradores/talita.png',
+    caption: 'Talita Pontes',
+    altText: 'Facilitadora',
+    id: 31
   },
 ];
 

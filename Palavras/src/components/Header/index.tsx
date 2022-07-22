@@ -25,6 +25,7 @@ const Header: React.FC = () => {
                             navbarScroll>
                             <Nav.Link > <Link to="/" style={{textDecoration: "none" , color: "#00A97E"}}> Início</Link></Nav.Link>
                             <NavDropdown  title="Sobre nós" id="navbarScrollingDropdown">
+                            <NavDropdown.Item >  <Link to="/sobrenos" style={{textDecoration: "none" , color: "#00A97E"}}>Sobre nós</Link></NavDropdown.Item>
                                 <NavDropdown.Item >  <Link to="/equipe" style={{textDecoration: "none" , color: "#00A97E"}}>Nossa Equipe</Link></NavDropdown.Item>
                                     <NavDropdown.Item ><Link to="/downloads"style={{textDecoration: "none" , color: "#00A97E"}}>Downloads</Link></NavDropdown.Item>
                                 <NavDropdown.Divider />
