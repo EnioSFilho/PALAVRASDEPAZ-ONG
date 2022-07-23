@@ -1,0 +1,20 @@
+.containerConheca{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-color: #f7f6f6;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.containerConhecaTexto {
+    color: #00A97E;
+    text-align: center;
+   
+}
+.containerConhecaVideo{
+text-align: center;
+color:#00A97E;
+
+}
