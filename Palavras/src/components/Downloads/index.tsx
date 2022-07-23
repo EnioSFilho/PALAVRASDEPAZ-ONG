@@ -58,7 +58,7 @@ function Downloads() {
                             <Card.Text>
                                 <p>NESTA VIDA você é um viajante solitário. E se você não entender a natureza da viagem, vai se perder, porque a vida é a única jornada que, por natureza, não pode andar em um círculos.</p>
                             </Card.Text>
-                           <a download='http://palavrasdepaz.kinghost.net/downloads/arquivos/ Artigo_3-_A_Jornada_da_Vida_-_For%C3%A7a_Interior.pdf'> <Button variant="success">Download</Button></a>
+                           <a href='/downloads/arquivos/ Artigo_3-_A_Jornada_da_Vida_-_For%C3%A7a_Interior.pdf'> <Button variant="success">Download</Button></a>
                         </Card.Body>
                     </Card>
                 </div>
@@ -235,7 +235,7 @@ function Downloads() {
                             <Card.Text>
                                 <p>Você sabe quem você é? Você não tem que responder isso para os outros. Não para a sua esposa ou seu marido, e não para seus filhos.</p>
                             </Card.Text>
-                            <a href='ftp://palavrasdepaz@ftp.palavrasdepaz.kinghost.net/www/downloads/arquivos/Artigo_4_-_Voc%C3%AA_Sabe_Quem_Voc%C3%AA_%C3%89_-_Auto_Conhecimento.pdf' target="blank"><Button variant="success">Download</Button></a>
+                            <a href='/downloads/arquivos/Artigo_4_-_Voc%C3%AA_Sabe_Quem_Voc%C3%AA_%C3%89.pdf' target="blank"><Button variant="success">Download</Button></a>
                         </Card.Body>
                     </Card>
                 </div>

@@ -23,7 +23,7 @@ const Header: React.FC = () => {
                             className="me-auto my-2 my-lg-0"
                             style={{ maxHeight: '100px' }}
                             navbarScroll>
-                            <Nav.Link > <Link to="/" style={{textDecoration: "none" , color: "#00A97E"}}> Início</Link></Nav.Link>
+                            <Nav.Link  > <Link to="/" style={{textDecoration: "none" , color: "#00A97E"}}> Início</Link></Nav.Link>
                             <NavDropdown  title="Sobre nós" id="navbarScrollingDropdown">
                             <NavDropdown.Item >  <Link to="/nos" style={{textDecoration: "none" , color: "#00A97E"}}>Sobre nós</Link></NavDropdown.Item>
                                 <NavDropdown.Item >  <Link to="/equipe" style={{textDecoration: "none" , color: "#00A97E"}}>Nossa Equipe</Link></NavDropdown.Item>
@@ -32,6 +32,7 @@ const Header: React.FC = () => {
                                 <NavDropdown.Item ><Link to="/perguntas" style={{textDecoration: "none" , color: "#00A97E"}}>Perguntas e Respostas</Link></NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Programa" id="navbarScrollingDropdown">
+                            <NavDropdown.Item href="#action1"> Programa</NavDropdown.Item>
                                 <NavDropdown.Item href="#action1">Conheça o Programa</NavDropdown.Item>
                                 <NavDropdown.Item href="#action2">Onde Ocorre ?</NavDropdown.Item>
                                 <NavDropdown.Item href="#action3">O Programa Atualmente</NavDropdown.Item>

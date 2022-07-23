@@ -14,6 +14,8 @@ import Downloads from './components/Downloads';
 import Download from './pages/Downloads';
 import Perguntas from './components/Perguntas';
 import Nos from './components/Nos';
+import Pagenos from './pages/Nos';
+import Programa from './components/Programa';
 
 
 
@@ -48,7 +50,8 @@ const MyRoutes: React.FC = () => {
         <Route path="/equipe" element={<Equipe/>} />
         <Route path="/downloads" element={<Download/>} />
         <Route path="/perguntas" element={<Perguntas/>} />
-        <Route path="/nos" element={<Nos/>} />
+        <Route path="/nos" element={<Pagenos/>} />
+        <Route path="/teste" element={<Programa/>} />
         
         
         

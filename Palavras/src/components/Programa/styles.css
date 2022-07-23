@@ -1,0 +1,44 @@
+.containerPrograma{
+    width: 100vw;
+    height: 100%;
+    max-width: 100%;
+    background-color: #f7f6f6;
+}
+.ajustePrograma{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+.textoPrograma {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.containerEducacaoPrograma{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.botoesPrograma{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: 2%;
+}
+.botoesProgramaDois{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: 10%;
+}
+.logoPrograma img{
+
+    margin-left: 27%;
+    margin-top: 10%;
+
+}
