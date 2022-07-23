@@ -6,7 +6,7 @@ import "./styles.css"
 function Conheca() {
   return (
     < Fragment>
-    
+    <div className='headerSombraDoacao'></div>
     <div className='containerConheca'>
 
         <div className='containerConhecaTexto'>

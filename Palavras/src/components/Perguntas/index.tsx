@@ -11,7 +11,7 @@ function Perguntas() {
 
 
 
-
+            <div className='headerSombraDoacao'></div>
             <div className='containerPerguntas'>
 
                 <div className='tituloPerguntas'>
