@@ -34,7 +34,7 @@ const Header: React.FC = () => {
                             <NavDropdown title="Programa" id="navbarScrollingDropdown">
                             <NavDropdown.Item> <Link to="/programa" style={{textDecoration: "none" , color: "#00A97E"}}> Programa</Link></NavDropdown.Item>
                                 <NavDropdown.Item> <Link to="/conheca" style={{textDecoration: "none" , color: "#00A97E"}}>Conheça o Programa</Link></NavDropdown.Item>
-                                <NavDropdown.Item href="#action2">Onde Ocorre ?</NavDropdown.Item>
+                                <NavDropdown.Item> <Link to="/locais" style={{textDecoration: "none" , color: "#00A97E"}}>Aonde Ocorre ?</Link></NavDropdown.Item>
                                 <NavDropdown.Item href="#action3">O Programa Atualmente</NavDropdown.Item>
                                 <NavDropdown.Item href="#action4">Como Implementar</NavDropdown.Item>
                                 <NavDropdown.Item href="#action5">Depoimentos</NavDropdown.Item>
