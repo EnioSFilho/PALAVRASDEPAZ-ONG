@@ -7,18 +7,15 @@ import Paginaprograma from './components/Paginaprograma';
 import Paz from './components/Paz';
 import Sobrenos from './components/Sobrenos';
 import Zoom from './components/Zoon';
-import Colaboradores from './components/Colaboradores';
 import Home from './pages/Home';
 import Equipe from './pages/Equipe';
-import Downloads from './components/Downloads';
 import Download from './pages/Downloads';
 import Perguntas from './components/Perguntas';
-import Nos from './components/Nos';
 import Pagenos from './pages/Nos';
 import Programa from './components/Programa';
-import Conheca from './components/Conheca';
 import ConhecaPrograma from './pages/Conheca';
 import Locais from './components/Locais';
+import Atua from './pages/Atualmente';
 
 
 
@@ -57,6 +54,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/programa" element={<Programa/>} />
         <Route path="/conheca" element={<ConhecaPrograma/>} />
         <Route path="/locais" element={<Locais/>} />
+        <Route path="/atualmente" element={<Atua/>} />
         
         
         
