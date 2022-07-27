@@ -6,6 +6,7 @@
     flex-wrap: wrap;
    justify-content: space-around;
     background-color: #f7f6f6;
+    padding-top: 20px;
 }
 .cardOneDoacao{
     text-align: justify;
@@ -22,8 +23,4 @@
     text-align: justify;
     padding-top: 3%;
     color: #00A97E;
-}
-
-.headerSombraDoacao {
-    padding: 3%;
 }
