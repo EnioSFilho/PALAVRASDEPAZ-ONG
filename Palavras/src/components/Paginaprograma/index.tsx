@@ -19,8 +19,8 @@ function Paginaprograma(): JSX.Element {
                            </div>
                     </div>
                         
-                    <div>
-                    <iframe style={{ width: "40vw", height: "60vh" ,borderRadius: "10%" }}
+                    <div >
+                    <iframe style={{ width: "40vw", height: "40vh" ,borderRadius: "1%", marginRight: "80px"}}
                         src="https://www.youtube.com/embed/X3cphCj9YVc?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.palavrasdepaz.org&playsinline=1&enablejsapi=1&widgetid=1"
                         ></iframe>
                          </div>
