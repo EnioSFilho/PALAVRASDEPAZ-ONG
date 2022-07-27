@@ -1,10 +1,5 @@
 .headerZoom {
     padding: 3%;
-    background: #000000;
-    background: -webkit-linear-gradient(to top,  #000000, #434343);
-    background: linear-gradient(to top,  #00A97E, #f7f6f6);
-    background-color: #f7f6f6;
-
 }
 .containerZoom{
     width: 100vw;
@@ -19,11 +14,13 @@
 }
 
 .containerTextoZoon{
-    width: 60vw;
+    width: 50vw;
     height: 50vh;
     color: #f7f6f6;
-    text-shadow: 1px 2px 3px black;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .containerTextoZoon p{
     font-size: 20px;
@@ -32,7 +29,7 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 934px){
+/* @media screen and (max-width: 934px){
    .containerTextoZoon p{
     font-size: 15px;
 
@@ -51,6 +48,6 @@
 .containerTextoZoon h1{
     font-size: 20px;
    }
-}
+} */
     
     

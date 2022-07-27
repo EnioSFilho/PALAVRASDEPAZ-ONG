@@ -1,16 +1,11 @@
 .containerGeral {
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     max-width: 100%;
 }
 
 .headerSobreNos {
     padding: 3%;
-    background: #000000;
-    background: -webkit-linear-gradient(to top, #434343, #000000);
-    background: linear-gradient(to top, #f7f6f6, #000000);
-    background-color: #f7f6f6;
-
 }
 
 .containerSobreNos {
@@ -26,7 +21,9 @@
     height: 50vh;
     text-align: justify;
     color: #00A97E;
-    text-shadow: 1px 2px 3px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media screen and (max-width: 506px) {
