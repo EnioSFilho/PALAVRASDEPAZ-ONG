@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     return (
 
         <Fragment>
-            <Navbar bg="light" expand="lg">
+            <Navbar expand="lg">
                 <Container fluid >
                     <img src={Logo} alt="Logo Palavras de paz" />
                     <div className='textoHeader'>
