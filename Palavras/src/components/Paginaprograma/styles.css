@@ -16,7 +16,8 @@
 .textoPrograma{
     color: white;
     max-width: 50vw;
-    text-align: justify;       
+    text-align: justify;   
+    text-shadow: 1px 2px 3px black;    
 }
 @media screen and (max-width: 557px){
 

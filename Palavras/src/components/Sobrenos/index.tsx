@@ -10,7 +10,6 @@ function Sobrenos() {
     return (
         <Fragment>
             <div className='containerGeral'>
-                <div className='headerSobreNos'></div>
 
                 <div className='containerSobreNos'>
                     <div>

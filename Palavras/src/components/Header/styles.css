@@ -4,6 +4,8 @@ text-align: center;
 color: #00A97E; 
 margin-left: 1%;
 padding-right: 7%;
+color: #00A97E;
+text-shadow: 1px 2px 3px black;  
  }
 @media screen and (max-width: 518px) {
 .textoHeader *{

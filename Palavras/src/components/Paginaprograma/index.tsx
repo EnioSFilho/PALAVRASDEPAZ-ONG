@@ -25,6 +25,7 @@ function Paginaprograma(): JSX.Element {
                         ></iframe>
                          </div>
                 </div>
+                <div className='headerSombraDoacao'></div>
             </main>
 
 
