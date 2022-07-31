@@ -1,5 +1,11 @@
 .headerZoom {
     padding: 3%;
+    padding: 1%;
+    background-color: #f7f6f6;
+    padding: 3%;
+    background: #000000;
+    background: -webkit-linear-gradient(to top, #00A97E, #f7f6f6);
+    background: linear-gradient(to top,#00A97E,#f7f6f6 );
 }
 .containerZoom{
     width: 100vw;
@@ -14,8 +20,10 @@
 }
 
 .containerTextoZoon{
-    width: 50vw;
+    width: 50rem;
     height: 50vh;
+    margin-left: 5px;
+    margin-right: 5px;
     color: #f7f6f6;
     text-align: justify;
     display: flex;

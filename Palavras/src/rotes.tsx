@@ -16,6 +16,8 @@ import Programa from './components/Programa';
 import ConhecaPrograma from './pages/Conheca';
 import Locais from './components/Locais';
 import Atua from './pages/Atualmente';
+import Organizar from './components/Organizar';
+import Implementar from './pages/Implementar';
 
 
 
@@ -55,6 +57,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/conheca" element={<ConhecaPrograma/>} />
         <Route path="/locais" element={<Locais/>} />
         <Route path="/atualmente" element={<Atua/>} />
+        <Route path="/implementar" element={<Implementar/>} />
         
         
         

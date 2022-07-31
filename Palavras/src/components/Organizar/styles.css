@@ -1,0 +1,40 @@
+.containerPrincipalOrganizar{
+    background-color: #f7f6f6;
+
+}
+.containerOrganizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#00A97E; 
+    
+}
+
+.textosOrganizar {
+    padding-top: 10px;
+    text-align: center;
+}
+.textosDoisOrganizar{
+    text-align: justify;
+    margin-top: 20px;
+}
+.textoTresOrganizar{
+    color:#00A97E; 
+    text-align: justify;
+    margin-top: 20px;
+
+}
+
+.containerDoisOrganizar{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.buttonsOrganizar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

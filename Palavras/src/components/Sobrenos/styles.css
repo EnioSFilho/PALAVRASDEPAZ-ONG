@@ -1,6 +1,6 @@
 .containerGeral {
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     max-width: 100%;
 }
 
@@ -20,7 +20,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
+@media screen and (max-width: 634px) {
+    .textoSobreNos h1{
+        margin-top: 50%;
+    }
+    
+}
+
 
 @media screen and (max-width: 506px) {
 

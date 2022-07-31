@@ -1,7 +1,7 @@
 
 .corpoPaginaPrograma{
    width: 100vw;
-   height: 80vh;
+   height: 100%;
     background-image: url("../../assets/images/back.jpg");
     background-repeat: no-repeat;
    
@@ -13,11 +13,20 @@
     justify-content: space-around;
     padding-top: 10rem;
 }
-.textoPrograma{
+
+.textoPaginaPrograma{
     color: white;
     max-width: 50vw;
     text-align: justify;   
     text-shadow: 1px 2px 3px black;    
+}
+.botoesPaginaPrograma{
+    display: flex;
+    flex-wrap: wrap;
+}
+.videoPaginaPrograma iframe{
+    margin-right: 0px;
+
 }
 @media screen and (max-width: 557px){
 
