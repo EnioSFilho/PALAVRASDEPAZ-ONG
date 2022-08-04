@@ -16,10 +16,9 @@ import Programa from './components/Programa';
 import ConhecaPrograma from './pages/Conheca';
 import Locais from './components/Locais';
 import Atua from './pages/Atualmente';
-import Organizar from './components/Organizar';
 import Implementar from './pages/Implementar';
-import Depoimentos from './components/Depoimentos';
 import DepoimentosPage from './pages/Depoimentos';
+import ContatoPage from './pages/Contato';
 
 
 
@@ -61,6 +60,7 @@ const MyRoutes: React.FC = () => {
         <Route path="/atualmente" element={<Atua/>} />
         <Route path="/implementar" element={<Implementar/>} />
         <Route path="/depoimentos" element={<DepoimentosPage/>} />
+        <Route path="/contato" element={<ContatoPage/>} />
         
         
         

@@ -11,7 +11,7 @@ const Header: React.FC = () => {
         <Fragment>
             <Navbar expand="lg">
                 <Container fluid >
-                    <img src={Logo} alt="Logo Palavras de paz" />
+                    <Link to={"/"}><img src={Logo} alt="Logo Palavras de paz" /></Link>
                     <div className='textoHeader'>
                         <h3>Palavras de Paz</h3>
                         <p>PROGRAMA DE EDUCAÇÃO PARA PAZ</p>
@@ -51,7 +51,7 @@ const Header: React.FC = () => {
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action5">Participe do PEP ONLINE</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="#action2">Contato</Nav.Link>
+                            <Nav.Link  > <Link to="/contato" style={{ textDecoration: "none", color: "#00A97E" }}> Contato</Link></Nav.Link>
 
                         </Nav>
                         <Form className="d-flex">
